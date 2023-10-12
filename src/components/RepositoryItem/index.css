@@ -1,0 +1,49 @@
+/* Write your CSS here */
+.avatar-url-props {
+  width: 30%;
+}
+
+
+.respositories-list-props {
+    font-family: Roboto;
+    background-color: #f8f8ff;
+    width: 80%;
+    margin: 10px;
+    list-style-type: none;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 7px;
+    border-radius: 30px;
+}
+
+
+@media (min-width: 768px){
+  .respositories-list-props {
+    
+    width: 30%;
+    margin: 10px;
+    
+    padding-top: 15px;
+    padding-bottom: 7px;
+    border-radius: 30px;
+  }
+
+}
+.name-props {
+  color: #e73959;
+  font-size: 23px;
+}
+
+.count-container {
+  line-height: 1.2px;
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  color: #0f172a;
+  align-items: center;
+}
+.count-img-props {
+  margin-right: 10px;
+  width: 20px;
+  height: 20px;
+}
